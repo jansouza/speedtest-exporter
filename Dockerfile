@@ -1,4 +1,4 @@
-FROM python:3.12-slim as build
+FROM python:3.14.0a3-slim as build
 ARG TARGETPLATFORM
 ARG BUILDPLATFORM
 
